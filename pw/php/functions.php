@@ -32,15 +32,15 @@ function tambah($data)
     // $img = htmlspecialchars($data['img']);
 
     // upload gambar
-    $img = upload();
-    if (!$img) {
-        return false;
-    }
+    // $img = upload();
+    // if (!$img) {
+    //     return false;
+    // }
 
     // query insert data
     $query = "INSERT INTO buku
                     VALUES
-                    ('', '$img', '$judul', '$pengarang', '$penerbit', '$tahun', '$harga')";
+                    ('', '$judul', '$pengarang', '$penerbit', '$tahun', '$harga')";
 
     mysqli_query($conn, $query) or die(mysqli_error($conn));
     echo mysqli_error($conn);
