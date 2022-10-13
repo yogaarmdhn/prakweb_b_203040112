@@ -6,6 +6,10 @@ $buku = query("SELECT * FROM buku");
 ?>
 
 
+
+
+
+
 <!DOCTYPE html>
 <html>
 

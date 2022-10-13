@@ -40,7 +40,7 @@ function tambah($data)
     // query insert data
     $query = "INSERT INTO buku
                     VALUES
-                    ('', '$judul', '$pengarang', '$penerbit', '$tahun', '$harga')";
+                    ('', '', '$judul', '$pengarang', '$penerbit', '$tahun', '$harga')";
 
     mysqli_query($conn, $query) or die(mysqli_error($conn));
     echo mysqli_error($conn);

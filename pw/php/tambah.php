@@ -1,8 +1,8 @@
-<?php 
+<?php
 require 'functions.php';
 
 if (isset($_POST['tambah'])) {
-    if(tambah($_POST) > 0 ) {
+    if (tambah($_POST) > 0) {
         echo "<script>
                 alert('data berhasil ditambahkan');
                 document.location.href = 'admin.php';
@@ -19,14 +19,16 @@ if (isset($_POST['tambah'])) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libro.</title>
-    <link rel="stylesheet" href="../css/style2.css">    
+    <title>Iqro</title>
+    <link rel="stylesheet" href="../css/style2.css">
 
 </head>
+
 <body>
     <h3>Form Tambah Data Buku</h3>
     <form class="form" action="" method="POST" style="background-color: #97a3a3;">
@@ -70,5 +72,5 @@ if (isset($_POST['tambah'])) {
 
     <script src="../js/script.js"></script>
 </body>
-</html>
 
+</html>
