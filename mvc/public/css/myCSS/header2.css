@@ -4,9 +4,10 @@ body {
     /* background: linear-gradient(45deg, #0a0223, #000000); */
 }
 .navbar {
-    background: rgba(255,255,255,0.2) !important;
+    margin: 0 100px;
+    background: rgba(143, 255, 15, 0.753) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    /* border-radius: 20px; */
+    border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.25);
     border-top: 1px solid rgba(255,255,255,0.5);
@@ -23,7 +24,7 @@ body {
 }
 
 .container .glass {
-    background: rgba(255,255,255,0.2) !important;
+    background: rgb(66, 66, 66) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     border-radius: 5px;
     backdrop-filter: blur(10px);
@@ -33,7 +34,7 @@ body {
 }
 
 .list-group-item {
-    background: rgba(255,255,255,0.2) !important;
+    background: rgb(66, 66, 66) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     border-radius: 5px;
     backdrop-filter: blur(10px);
